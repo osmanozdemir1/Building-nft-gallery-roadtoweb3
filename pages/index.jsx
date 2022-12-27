@@ -14,7 +14,7 @@ const Home = () => {
   const fetchNFTs = async() => { 
     let nfts;
     console.log("fetching NFTs");
-    const baseURL = "addyourapikeyshere";
+    const baseURL = "addYourAPIKeysHere";
     
     if (!collection.length) {
       var requestOptions = {
