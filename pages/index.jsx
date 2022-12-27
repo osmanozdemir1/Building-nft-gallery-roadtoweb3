@@ -14,7 +14,7 @@ const Home = () => {
   const fetchNFTs = async() => { 
     let nfts;
     console.log("fetching NFTs");
-    const baseURL = "https://eth-mainnet.alchemyapi.io/nft/v2/jNt9zcW8GNrCaMgKxR4KyPZclnkCbBzm/getNFTs/";
+    const baseURL = "addyourapikeyshere";
     
     if (!collection.length) {
       var requestOptions = {
